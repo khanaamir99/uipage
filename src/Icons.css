@@ -1,0 +1,9 @@
+.icons{
+    display: flex;
+    margin-left: 60%;
+    justify-content: space-between;
+}
+.logo{
+    width: 100px;
+    color:"solid black"
+}

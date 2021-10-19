@@ -1,0 +1,38 @@
+.mainMaterial {
+  /* margin: 0px; */
+  padding: 0px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #f7f7f7;
+  flex-shrink: 0;
+  width: 100%;
+  margin: 0 -20px;
+}
+
+.mainMaterial ul {
+    width: 20%;
+    /* padding: 0 10px; */
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.mainMaterial ul li {
+    display: flex;
+    list-style: none;
+    padding: 2px;
+    font-size: 12px;
+    justify-content: center;
+    justify-content: space-between;
+}
+.mainMaterial ul li span {
+    font-weight: bold;
+    display: flex;
+    text-align: left;
+    width: 50%;
+  /* padding-left: 5px; */
+}
+.mainMaterial ul li img {
+  width: 80px;
+  display: flex;
+  align-items: center;
+}
