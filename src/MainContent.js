@@ -74,7 +74,7 @@ export default function MainContent() {
          <SearchField />
 
         {data.map((i, idx) => (
-            <PatientCard  setItem={setItem} idx={idx} name={i.name} icon={i.icon} color={i.color} />
+            <PatientCard  setItem={setItem} idx={idx} name={i.name} icon={i.icon} color={i.color} item={item} />
           ))}
         </Grid>
         <Grid item lg={9.5} style={{padding:0}}>

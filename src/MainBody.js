@@ -18,7 +18,7 @@ const ExpandMore = styled((props) => {
   }),
 }));
 
-export default function RecipeReviewCard({data}) {
+export default function RecipeReviewCard({ data }) {
   const [expanded, setExpanded] = React.useState(false);
 
   const handleExpandClick = () => {
@@ -36,7 +36,7 @@ export default function RecipeReviewCard({data}) {
             fontSize: 16,
             marginLeft: 5,
             marginTop: 32,
-            color:"green"
+            color: "green",
           }}
         >
           Patient Details{" "}
@@ -66,15 +66,12 @@ export default function RecipeReviewCard({data}) {
               </Avatar>
             }
           />
-        
+
           <MainMaterial data={data} />
-          
-       
         </Card>
-        
+
         <BottomDrawer />
       </Card>
-     
     </>
   );
 }

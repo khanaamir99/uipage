@@ -36,9 +36,11 @@ export default function LabTabs() {
           </TabList>
         </Box>
         <TabPanel value="1" style={{display:"flex"}}>
-        Synthroid (levothyroxine), <br />
+        Synthroid (levothyroxine) <br />
           Januvia (sitagliptin)</TabPanel>
-        <TabPanel value="2" style={{display:"flex", margin:0, padding:0}}></TabPanel>
+        <TabPanel value="2" style={{display:"flex", margin:0, padding:0}}>
+
+        </TabPanel>
         <TabPanel value="3" style={{display:"flex"}}></TabPanel>
       </TabContext>
     </Box>

@@ -5,7 +5,8 @@ import { green } from "@mui/material/colors";
 import "./style.css";
 
 const MainMaterial = (props) => {
-  const {image,phone,email,gender,age,surgery_type,surgery_date,height,weight,bmi,anesthesiologist,anesthesiologist_phone,anesthesiologist_email} = props.data;
+  const {phone,email,gender,age,surgery_type,surgery_date,height,weight,bmi,anesthesiologist,
+    anesthesiologist_phone,anesthesiologist_email} = props.data;
   return (
       <div className="mainMaterial">
         <ul style={{ width: 170 }}>
